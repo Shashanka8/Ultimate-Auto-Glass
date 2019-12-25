@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+.header span{
+    display: inline-block;
+}
+
+.header button, .two button {
+    border: none;
+    padding: 15px 30px;
+    background: rgb(243, 208, 13);
+}
+/* .one {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+} */
+.one nav {
+    background: rgb(19, 19, 141);
+}
+.one .nav-item > a {
+    color: white !important;
+    margin: 0 30px;
+    vertical-align:middle;
+}
+/* Navbar Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: darkblue;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgb(6, 6, 185);
+    color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block; 
+    background: darkblue; 
+    opacity: 0.8;
+}
+
+/* .two {
+    margin-top: 155px;
+} */
+/* Carousel */
+.two .carousel-caption {
+    position: absolute;
+    top: 30%;
+    text-align: left;
+}
+
+.three {
+    padding: 50px 0;
+}
+.three .col-md-6 p {
+    background: darkblue;
+    padding: 10px 20px;
+    color: white;
+    font-size: 24px;
+}
+
+.three .col-md-6 a {
+    text-decoration: none;
+}
+
+.three .col-md-6 p:hover {
+    background: rgb(211, 163, 6);
+}
+
+.four {
+    background: rgb(228, 223, 223);
+    padding: 80px;
+}
+
+.four .icon-img {
+    display: inline-block;
+    padding: 50px;
+    border: 3px solid rgb(247, 182, 5);
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.fifth {
+    padding: 80px;
+}
+
+.fifth img {
+    border: none;
+    border-radius: 50%;
+}
+
+.sixth {
+    background: rgb(245, 210, 10);
+    padding: 60px 100px;
+}
+.sixth button {
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    background: darkblue;
+}
+
+.seventh {
+    padding: 80px;
+}
+
+.seventh .col-md-4 {
+    margin: 10px 0;
+}
+
+.eight {
+    padding: 80px;
+    background: rgb(228, 223, 223);
+}
+.eight a {
+    color: black;
+}
+.eight a:hover {
+    text-decoration: none;
+}
+.eight button {
+    border: none;
+    padding: 15px 30px;
+    background: rgb(243, 208, 13);
+}
+
+.maps {
+ width: 90%;
+ margin: 3rem auto;
+}
+
+.footer {
+    padding: 50px 80px 0 80px;
+    background: black;
+}
+.footer h2 {
+    color: white;
+}
+.footer .col-1 i {
+    font-size: 24px;
+    color: rgb(245, 204, 22);
+}
+.footer .col-1, .footer .col-11 {
+    margin: 10px 0;
+}
+.footer .col-11 {
+    color: gray;
+}
+
+.footer span i {
+    font-size: 28px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.footer span a, .footer p a {
+    text-decoration: none;
+}
+.footer .logos img {
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 40px;
+    padding: 5px;
+    width: 100px;
+}
+.footer-copy, .footer-copy a {
+    color: gray;
+}
+.footer-copy a:hover {
+    color: gray;
+}
+
+/* Signup Modal*/
+#signUp {
+  display: none;
+  color: black;
+}
+
+#signUp .modal-body {
+  padding: 0;
+}
+
+.signup-back {
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.main-div {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.left-div {
+ width: 40%;
+ background-image: url('http://kirkwoodglass.com/wp-content/uploads/2014/11/windshield.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ object-fit: cover;
+ height: 380px;
+ margin-left: 0;
+ -webkit-box-shadow: 8px 0 5px -2px #888;
+ box-shadow: 8px 0 5px -2px #888;
+}
+
+.right-div {
+ margin-left: 8px;
+ margin-top: 10px;
+}
+
+.right-div h5 {
+ text-align: center;
+ font-size: 1.4rem;
+}
+
+.signupForm {
+ margin-top: 10px;
+}
+
+.check {
+ margin-left: 16px;
+}
+
+.check input {
+ margin-top: 10px;
+}
+
+.signup-btn {
+ margin-top: 25px;
+}
+
+.overlay-modal {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.6);
+ z-index: 1;
+}
+
+/* Signup Modal*/
