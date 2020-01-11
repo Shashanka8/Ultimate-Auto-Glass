@@ -13,13 +13,9 @@
     padding: 15px 30px;
     background: rgb(243, 208, 13);
 }
-/* .one {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-} */
+.one {
+    background-color: white;
+}
 .one nav {
     background: rgb(19, 19, 141);
 }
@@ -63,9 +59,10 @@
     opacity: 0.8;
 }
 
-/* .two {
+.two {
+    position: relative;
     margin-top: 155px;
-} */
+}
 /* Carousel */
 .two .carousel-caption {
     position: absolute;
