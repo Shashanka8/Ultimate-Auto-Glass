@@ -180,8 +180,8 @@
 .footer .col-1, .footer .col-10 {
     margin: 10px 0;
 }
-.footer .col-11 {
-    color: gray;
+.footer .col-10 {
+    color: white;
 }
 
 .footer span i {
@@ -204,10 +204,10 @@
     width: 100px;
 }
 .footer-copy, .footer-copy a {
-    color: gray;
+    color: white;
 }
 .footer-copy a:hover {
-    color: gray;
+    color: white;
 }
 
 /* Signup Modal*/
